@@ -18,13 +18,13 @@ const getProductByName = async (name) => {
  
 const getProducts = async (params) => {
 
-    const { page = 1, limit = 10, serach, categories } = params
+    const { page = 1, limit = 10, search, categories } = params
 
     const skip = (page - 1 ) * limit
     const query = {}
 
-    if(serach){
-        query.name = {$regex : serach, $option: 'i'}
+    if(search){
+        query.name = {$regex : search, $options: 'i'}
     }
     
     if(categories){
