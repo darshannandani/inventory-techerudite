@@ -1,4 +1,4 @@
-# Tech Edurite Inventory Management
+# Inventory Management
 
 A full-stack web application for inventory and product management. This project features a robust backend API built with Node.js and Express, connected to a MongoDB database using Mongoose. The frontend is a modern React application built with Next.js, featuring a beautiful UI styled with Tailwind CSS.
 
